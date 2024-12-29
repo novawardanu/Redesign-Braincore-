@@ -1,0 +1,39 @@
+.navbar {
+    position: fixed;
+}
+
+nav {
+    width: 200px;
+    border-left: 2px solid #ffffff33; /* Garis pemisah antara konten dan navbar */
+    transition: background-color 0.8s ease-in-out, opacity 0.8s ease-in-out;
+    will-change: background-color, opacity;
+    font-weight: 600;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li a {
+    font-size: 1rem;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease;
+  }
+  
+  li a:hover {
+    color: #00bfff; /* Warna hover */
+  }
+  
+  li a.text-blue-300 {
+    color: #00bfff; /* Warna aktif */
+  }
+  
+  .active {
+    color: #00bfff; /* Warna aktif */
+    font-weight: bold; /* Gaya teks */
+  }
+  
